@@ -101,11 +101,7 @@ module.exports = function(grunt) {
         command: [
           'git push heroku master',
           'heroku open'
-        ].join('&&'),
-        options: {
-          failOnError: true,
-          stdout: true
-        }
+        ]
       }
     },
   });
